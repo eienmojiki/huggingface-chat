@@ -370,7 +370,7 @@ export default class ChatBot {
       is_retry: false,
       is_continue: false,
       web_search: false,
-      tools: {},
+      tools: [],
     };
     const formData = new FormData()
     formData.append("data",JSON.stringify(data))
